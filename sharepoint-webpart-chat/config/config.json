@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "glean-chat-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/gleanChat/GleanChatWebPart.js",
+          "manifest": "./src/webparts/gleanChat/GleanChatWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "GleanChatWebPartStrings": "lib/webparts/gleanChat/loc/en-us.js"
+  }
+}
