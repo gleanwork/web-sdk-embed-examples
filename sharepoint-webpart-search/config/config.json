@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "glean-search-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/gleanSearch/GleanSearchWebPart.js",
+          "manifest": "./src/webparts/gleanSearch/GleanSearchWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "GleanSearchWebPartStrings": "lib/webparts/gleanSearch/loc/en-us.js"
+  }
+}

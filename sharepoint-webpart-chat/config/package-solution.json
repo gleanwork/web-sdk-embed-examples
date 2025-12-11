@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "glean-chat-sharepoint-client-side-solution",
+    "id": "42e5efca-7163-49a7-b412-cd4a1d59aa6e",
+    "version": "1.0.0.1",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.19.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "glean-chat-sharepoint description"
+      },
+      "longDescription": {
+        "default": "glean-chat-sharepoint description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "glean-chat-sharepoint Feature",
+        "description": "The feature that activates elements of the glean-chat-sharepoint solution.",
+        "id": "604540b3-7643-4402-adbd-8707d9bc5556",
+        "version": "1.0.0.1"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/glean-chat-sharepoint.sppkg"
+  }
+}

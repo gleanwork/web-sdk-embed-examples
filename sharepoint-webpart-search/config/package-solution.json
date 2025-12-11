@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "glean-search-sharepoint-client-side-solution",
+    "id": "674a72b7-56c2-432b-81ba-78d6ebb1c537",
+    "version": "1.0.3.1",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.19.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "glean-search-sharepoint description"
+      },
+      "longDescription": {
+        "default": "glean-search-sharepoint description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "glean-search-sharepoint Feature",
+        "description": "The feature that activates elements of the glean-search-sharepoint solution.",
+        "id": "f50cb2c4-dced-4716-af60-40a9881c9cee",
+        "version": "1.0.3.1"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/glean-search-sharepoint.sppkg"
+  }
+}

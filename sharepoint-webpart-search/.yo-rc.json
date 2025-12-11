@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "18.17.1",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.19.0",
+    "libraryName": "glean-search-sharepoint",
+    "libraryId": "674a72b7-56c2-432b-81ba-78d6ebb1c537",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "glean-search-sharepoint",
+    "solutionShortDescription": "glean-search-sharepoint description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
